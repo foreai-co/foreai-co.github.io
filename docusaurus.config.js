@@ -11,17 +11,19 @@ const config = {
   title: 'fore ai',
   tagline: 'Reliable Artificial Intelligence',
   favicon: 'img/favicon.ico',
-
+  
   // Set the production url of your site here
-  url: 'https://docs.foreai.co',
+  url: 'https://foreai-co.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Users/asheempanakkat/dev/ragboxes/auto-prompter/my-website/build/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'foreai-co', // Usually your GitHub org/user name.
-  projectName: 'foreai-co', // Usually your repo name.
+  projectName: 'foreai-co.github.io', // Usually your repo name.
+  trailingSlash: false,
+  deploymentBranch: 'deployment',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
