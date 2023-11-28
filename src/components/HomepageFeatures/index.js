@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Enable every developer to build production grade AI apps',
-    Svg: require('@site/static/img/fore_ai_schematic.svg').default,
+    Svg: require('@site/static/img/foreai_visual_shapes.svg').default,
     description: (
       <>
         An intuitive toolkit for LLM app developers to attain unmatched accuracy.
