@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[222],{6447:e=>{e.exports=JSON.parse('{"label":"fore ai","permalink":"/blog/tags/fore-ai","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
