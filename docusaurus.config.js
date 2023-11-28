@@ -66,11 +66,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/fore-ai-social-card.png',
+      style: 'dark',
       navbar: {
         title: '',
         logo: {
           alt: 'fore ai Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/logo-dark.svg',
+          width: 100,
+          height: 100,
         },
         items: [
           {
