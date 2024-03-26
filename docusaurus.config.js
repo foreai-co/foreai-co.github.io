@@ -48,13 +48,6 @@ const config = {
           editUrl:
             'https://github.com/foreai-co',
         },
-        blog: {
-          showReadingTime: false,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/foreai-co',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -81,11 +74,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tools',
+            label: 'foresight',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/foreai-co',
+            href: 'https://github.com/foreai-co/fore',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,8 +90,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tools',
-                to: '/docs/category/tools',
+                label: 'foresight',
+                to: '/docs/category/foresight',
+              },
+              {
+                label: 'Terms and Conditions',
+                to: '/docs/terms',
               },
             ],
           },
@@ -121,19 +117,6 @@ const config = {
           //     },
           //   ],
           // },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/foreai-co',
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} fore ai AG`,
       },
