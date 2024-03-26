@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[688],{4610:o=>{o.exports=JSON.parse('{"title":"Tools","description":"Various tools provided by fore ai.","slug":"/category/tools","permalink":"/docs/category/tools","navigation":{"next":{"title":"RAGBox","permalink":"/docs/tools/RAGBox"}}}')}}]);
