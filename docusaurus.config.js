@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/foreai-co',
+            'https://github.com/foreai-co/foreai-co.github.io',
         },
         theme: {
           customCss: './src/css/custom.css',

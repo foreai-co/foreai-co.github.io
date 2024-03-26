@@ -4,11 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Enable every developer to build production grade AI apps',
+    title: 'Boost accuracy of your LLM app with foresight',
     Svg: require('@site/static/img/foreai_emblem_bg_rounded_white.svg').default,
     description: (
       <>
-        An intuitive toolkit for LLM app developers to attain unmatched accuracy.
+        <p>Delve into the wealth of knowledge within our <a href="/docs/category/foresight">documentation</a>.</p>
+        <p>Alternatively, experience the power of <a href="https://foresight.foreai.co">foresight</a> firsthand.</p>
       </>
     ),
   },
