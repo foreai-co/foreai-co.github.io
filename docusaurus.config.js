@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'fore ai',
   tagline: 'Reliable Artificial Intelligence',
-  favicon: 'img/favicon.ico',
+  favicon: 'https://www.foreai.co/favicon.ico',
   
   // Set the production url of your site here
   url: 'https://foreai-co.github.io',
@@ -63,6 +63,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
+          href: 'docs/category/foresight',
           alt: 'fore ai Logo',
           src: 'img/logo.svg',
           srcDark: 'img/logo-dark.svg',
