@@ -36,6 +36,3 @@ Example:
 - **Reference response**: *Alex likes blue cars.*
 - **Response**: *Alex likes all cars.* `[similarity score = 0.0]` (the statement is similar but not equivalent to the reference answer)
 
-
-# References
-You can find more about the AE dataset and original paper in their [github repo](https://github.com/google-research-datasets/answer-equivalence-dataset).
