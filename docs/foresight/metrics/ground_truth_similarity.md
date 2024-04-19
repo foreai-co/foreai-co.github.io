@@ -7,7 +7,7 @@ to the reference response?**
 
 Depends on:
 - A user query;
-- LLM's generated response;
+- An LLM's generated response;
 - A reference response to compare the generated response with.
 
 The metric score (range from 0 to 1) represents the ratio of the statements that are present in both the reference and the generated response, divided by the maximum number of facts in any of the responses. See examples below for more intuition.
