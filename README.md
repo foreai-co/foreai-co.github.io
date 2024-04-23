@@ -37,3 +37,9 @@ Not using SSH:
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
+
+### Set docs.foreai.co as custom domain
+
+**!!Important!!** If you don't [do this here](https://github.com/foreai-co/foreai-co.github.io/settings/pages) after deployment https://docs.foreai.co will die.
+
+See [screenshot example here](change_dns_instruction.png).
