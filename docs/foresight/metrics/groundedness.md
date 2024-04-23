@@ -28,5 +28,5 @@ Example:
 - **Context**: *Albert Einstein, (14 March 1879 - 18 April 1955) was a German-born theoretical physicist. In 1905, sometimes described as his annus mirabilis (miracle year), Einstein published four groundbreaking papers.*
 - **Question**: *Where was Einstein born and how old did he get?*
 - **Response 1**: *He was 76 years old when he died and he was born in Germany.* `[groundedness score = 1.0]`
-- **Response 2**: *He was 50 years old when he died and he was born in Germany.* `[groundedness score = 0.5]` (Age is wrong, publish fact is correct)
+- **Response 2**: *He was 50 years old when he died and he was born in Germany.* `[groundedness score = 0.5]` (Age is wrong, country is correct)
 - **Response 3**: *HHe was born in Europe and was more than 60 years old when he died.* `[groundedness score = 1.0]` (Entailed in context.)
