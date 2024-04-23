@@ -40,4 +40,6 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 
 ### Point documentation to docs.foreai.co
 
-[This is what you need to do](change_dns_instruction.png).
+**!!Important!!** If you don't do this after deployment https://docs.foreai.co will die.
+
+See [screenshot instructions here](change_dns_instruction.png).
