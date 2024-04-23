@@ -10,7 +10,7 @@ Depends on:
 - An LLM's generated response to be evaluated;
 - A reference response to compare the generated response with.
 
-The metric score (range from 0 to 1) represents the ratio of the statements that are present in both the reference and the generated response, divided by the maximum number of facts in any of the responses. See examples below for more intuition.
+The metric score (range from 0 to 1) represents the ratio of the facts that are present in both the reference and the generated response (facts, the reference and generated responses agree on), divided by the maximum number of facts in any of the responses. See examples below for more intuition.
 
 Example (multi-statement):
 - **Question**: *What is the capital of France, and what is the primary language spoken there?*
@@ -25,14 +25,14 @@ Example (multi-statement):
 - **Response**: *Amy likes apples, berries and plums.* `[similarity score = 0.33]` (one matched fact and two mismatched ones)
 
 Example:
-- **Question**: *Is Python an easy programming language to learn?*
-- **Reference response**: *Python is an easy programming language to learn*
-- **Response 1**: *It is easy to be proficient in python*  `[similarity score = 1.0]`
-- **Response 2**: *Python is widely recognized for its simplicity.* `[similarity score = 1.0]`
-- **Response 3**: *Python is not an easy programming language to learn* `[similarity score = 0.0]`
+- **Question**: *What is the age of Archie White, the oldest new graduate in Britain as of July 16, 2021?*
+- **Reference response**: *96 years old.*
+- **Response 1**: *Archie White's age is 96.*  `[similarity score = 1.0]`
+- **Response 2**: *He is 96.* `[similarity score = 1.0]`
+- **Response 3**: *He is more than 95 years old.* `[similarity score = 0.0]` (while true, it's not semantically equivalent to the reference response)
 
 Example:
 - **Question**: *What cars does Alex like?*
 - **Reference response**: *Alex likes blue cars.*
-- **Response**: *Alex likes all cars.* `[similarity score = 0.0]` (the statement is similar but not equivalent to the reference answer)
+- **Response**: *Alex likes all cars.* `[similarity score = 0.0]` (the statement is similar but not equivalent to the reference response)
 
