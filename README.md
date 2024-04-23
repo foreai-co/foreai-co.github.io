@@ -37,3 +37,7 @@ Not using SSH:
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
+
+### Point documentation to docs.foreai.co
+
+[This is what you need to do](change_dns_instruction.png).
