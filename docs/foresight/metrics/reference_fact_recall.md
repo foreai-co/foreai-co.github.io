@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 # Reference Fact Recall
 The metric answers the question: **How many facts from the reference answer does
