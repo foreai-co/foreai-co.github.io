@@ -1,7 +1,11 @@
 ---
-sidebar_position: 2
+sidebar_position: 5
 ---
-# Ground Truth Similarity
+# Ground Truth Similarity 
+### (Deprecated)
+
+⚠️ ***NB*** ⚠️ *This metric is deprecated in favour of [Reference Fact Recall](reference_fact_recall.md) and [Groundedness](groundedness.md).*
+
 The metric answers the question: **Is the generated response factually equivalent 
 to the reference response?**
 
