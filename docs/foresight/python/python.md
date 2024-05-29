@@ -41,7 +41,7 @@ sidebar_position: 1
 
     run_config = EvalRunConfig(evalset_id="programming-languages",
                             experiment_id="my-smart-llm",
-                            metrics=[MetricType.GROUNDEDNESS, MetricType.SIMILARITY])
+                            metrics=[MetricType.GROUNDEDNESS, MetricType.REFERENCE_FACT_RECALL])
 
 
     def my_generate_fn(query: str) -> InferenceOutput:
@@ -54,4 +54,29 @@ sidebar_position: 1
             ])
 
     foresight.generate_answers_and_run_eval(my_generate_fn, run_config)
+    ```
+
+    - If you have already run a one-off eval run that includes reference answers or
+    contexts, you can use a single command to upload the evalset, the generated answers
+    and kick off an evalrun:
+    ```python
+    from fore.foresight import EvalRunConfig, Foresight, InferenceOutput, MetricType
+    from datetime import datetime
+
+    foresight = Foresight(api_token="<YOUR_API_TOKEN>")
+
+    formatted_time = datetime.utcnow().strftime('%Y%m%d-%H%M%S')
+
+    run_config = EvalRunConfig(evalset_id=f"programming-languages-{formatted_time}",
+                               experiment_id=f"my-experiment-{formatted_time}",
+                               metrics=[MetricType.REFERENCE_FACT_RECALL])
+        
+    foresight.create_simple_evalrun(
+        run_config=run_config,
+        queries=["hardest programming language?", "easiest programming language?"],
+        answers=[
+            "The hardest programming language is Malbolge",
+            "The easiest programming language is Python"
+        ],
+        reference_answers=["Malbolge", "Python"])
     ```
