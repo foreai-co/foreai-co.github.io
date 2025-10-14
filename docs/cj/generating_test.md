@@ -1,11 +1,12 @@
 # Generating a test
 
-After entering the test case you can start the test generation, which converts the instructions into code. The generated code will be used for running the test.
+After entering the test case you can trigger the test generation, which converts the instructions into
+code using AI models. The generated code will be used for running the test.
 
 Test steps are generated one-by-one:
-- first step is `Visit the webpage`, opening the provided Web URL
+- first step is `Visit the webpage`, opening the provided initial website URL
 - generate next step title and description
-- generate code for this step
+- generate (python/playwright) code for this step
 - execute generated code. If there's an error, regenerate the code and execute.
 - take a screenshot and verify if the screenshot matches the expected step outcome
 - generating code for ea

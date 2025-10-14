@@ -37,10 +37,9 @@ CJ enables anyone to create, manage, and execute automated web tests — no codi
 ### Create a Test Case
 
 1. Click **"New Test Case"** or the **"+"** button.
-2. Enter a descriptive name and add a brief description.
-3. Provide the target URL and test steps.
-4. Use CJ’s **AI Assistant** to suggest steps, or enter them manually.
-5. Save your test case.
+1. Enter a descriptive name and add a brief description.
+1. Provide the target URL and test instructions.
+1. Save your test case.
 
 ### Edit or Delete Test Cases
 
@@ -59,15 +58,6 @@ CJ enables anyone to create, manage, and execute automated web tests — no codi
 ### View Results
 
 - Access the **Reports** section for detailed results, including logs and screenshots.
-- Download or share reports as needed.
-
----
-
-## Best Practices
-
-- **Leverage AI Suggestions:** Speed up test creation with the AI assistant.
-- **Use Suites for Organization:** Group tests by feature or flow.
-- **Regularly Review Reports:** Stay on top of failures and regressions.
 
 ---
 

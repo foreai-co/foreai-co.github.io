@@ -1,6 +1,7 @@
 # Modules
 
-Modules allow you to execute code **before** all the testcase steps - mostly used for preparing the environment or 
+Modules allow you to execute code **before** all the testcase steps - mostly used for preparing the
+environment or cleaning up before the test.
 
 Module can be created from:
 - another testcase
