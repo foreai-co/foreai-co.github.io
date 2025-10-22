@@ -42,6 +42,9 @@ Not using SSH:
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
+### Adding new .md files for CJ
+
+Make sure to update `sidebars.js` to include the new file in the left sidebar.
 
 ### Set docs.foreai.co as custom domain
 
