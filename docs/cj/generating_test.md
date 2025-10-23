@@ -44,4 +44,4 @@ Force click allows you to indicate the element which should be clicked in this s
 
 ## Running tests
 
-See the [Running Tests Guide](./running_tests.md).
+See the [Running Tests Guide](./running_analyzing_tests.md).
