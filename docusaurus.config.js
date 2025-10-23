@@ -63,7 +63,7 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          href: 'docs/category/foresight',
+          href: 'docs/cj/about',
           alt: 'fore ai Logo',
           src: 'img/logo.svg',
           srcDark: 'img/logo-dark.svg',
@@ -86,8 +86,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'CJ',
-                to: '/docs/category/cj',
+                label: 'Critical Journey',
+                to: '/docs/cj/about',
               },
               {
                 label: 'Terms and Conditions',
