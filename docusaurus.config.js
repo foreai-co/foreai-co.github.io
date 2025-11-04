@@ -9,8 +9,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'fore ai',
-  tagline: 'Reliable Artificial Intelligence',
-  favicon: 'https://www.foreai.co/favicon.ico',
+  tagline: 'Fully automated software testing, powered by AI',
+  favicon: 'img/favicon.svg',
   
   // Set the production url of your site here
   url: 'https://foreai-co.github.io',
@@ -58,7 +58,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/fore-ai-social-card.png',
+      image: 'img/favicon.svg',
       style: 'dark',
       navbar: {
         title: '',
@@ -80,15 +80,11 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Critical Journey',
-                to: '/docs/cj/about',
-              },
               {
                 label: 'Terms and Conditions',
                 to: '/docs/terms',
