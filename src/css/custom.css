@@ -4,27 +4,71 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Nohemi:wght@400;500;600;700;800;900&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #602fe1;
-  --ifm-color-primary-dark: #602fe1;
-  --ifm-color-primary-darker: #602fe1;
-  --ifm-color-primary-darkest: #602fe1;
-  --ifm-color-primary-light: #602fe1;
-  --ifm-color-primary-lighter: #602fe1;
-  --ifm-color-primary-lightest: #602fe1;
+  --ifm-color-primary: #075056;
+  --ifm-color-primary-dark: #075056;
+  --ifm-color-primary-darker: #075056;
+  --ifm-color-primary-darkest: #075056;
+  --ifm-color-primary-light: #075056;
+  --ifm-color-primary-lighter: #075056;
+  --ifm-color-primary-lightest: #075056;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --ifm-heading-font-family: 'Nohemi', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Set default font to Inter */
+body {
+  font-family: var(--ifm-font-family-base);
+}
+
+/* Set Nohemi for headings and subheadings */
+h1, h2, h3, h4, h5, h6,
+.markdown > h1,
+.markdown > h2,
+.markdown > h3,
+.markdown > h4,
+.markdown > h5,
+.markdown > h6 {
+  font-family: var(--ifm-heading-font-family);
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  letter-spacing: 0.02em;
+}
+
+/* Reduce heading size */
+h1 {
+  font-size: 1.75rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.35rem;
+}
+h4 {
+  font-size: 1.15rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h6 {
+  font-size: 0.875rem;
+}
+
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #BFA8F3;
-  --ifm-color-primary-dark: #BFA8F3;
-  --ifm-color-primary-darker: #BFA8F3;
-  --ifm-color-primary-darkest: #BFA8F3;
-  --ifm-color-primary-light: #BFA8F3;
-  --ifm-color-primary-lighter: #BFA8F3;
-  --ifm-color-primary-lightest: #BFA8F3;
+  --ifm-color-primary: #7BE68D;
+  --ifm-color-primary-dark: #7BE68D;
+  --ifm-color-primary-darker: #7BE68D;
+  --ifm-color-primary-darkest: #7BE68D;
+  --ifm-color-primary-light: #7BE68D;
+  --ifm-color-primary-lighter: #7BE68D;
+  --ifm-color-primary-lightest: #7BE68D;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
